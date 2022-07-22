@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/tablet.css" media="(min-width: 768px)">
+    <!-- Letras -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400;600;700&display=swap" rel="stylesheet">
+    <!-- Iconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Portafolio</title>
+</head>
+<body>
+    <header>
+        <!-- <nav class="nav">
+            <h1><i class="fa-solid fa-star"></i>Portafolio</h1>
+            <div id="menu-bar" class="fas fa-bars"></div>
+            <ul>
+                <li><a href="inicio.html">INICIO</a> </li>
+                <li><a href="AcercaDe.html">ACERCA DE</a> </li>
+                <li><a href="Conoceme.html">CONOCEME</a></li>
+                <li><a href="./Proyectos.html">PROYECTOS</a></li>
+                <li><a href="contactame.html">CONTACTAME</a></li>
+            </ul>
+        </nav> -->
+        <a href="#" class="logo"><i class="fa-solid fa-star"></i>Portafolio</a>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <nav class="menu-navegar">
+            <a href="#inicio">INICIO</a>
+            <a href="#Acerca-de">ACERCA DE</a>
+            <a href="#Proyecto">PROYECTOS</a>
+            <a href="#contactame">CONTACTAME</a>
+        </nav>
+        
+    </header>
+    <main>
+        <section class="inicio" id="inicio">
+            <div class="content">
+                <h3>MI PORTAFOLIO</h3>
+                <p>D. R. Y.</p>
+            </div>
+            <figure class="image">
+                <img src="./img/estrellas.png" alt="estar">
+            </figure>
+        </section>
+        <section class="Acerca-de" id="Acerca-de">
+            <div class="content">
+                <h3>¡Hola!</h3>
+                <h3>Soy...Diany Rioja Yonima </h3>
+                <p>Actualmente me encuentro cursando 7mo semestre de la carrera de ingenieria de sistemas "UABAJB". Claramente me apasiona la tecnologia, aprendi a los 17 años mi primer lenguaje de programacion "C", desde ahi parte mi interes en este ambito y quiero seguir aprendiendo mucho mas.</p>
+                <p>EDUCACION</p>
+                <p>Educacion media</p>
+                <p>Colegio: Prof. Carlos Loayza Beltran</p>
+                <p>Educacion universitaria:</p>
+                <p>Universidad Autonoma Del Beni Jose Ballivian</p>
+            </div>
+            <figure class="image">
+                <img src="./img/me.jpeg" alt="mi foto">
+            </figure>
+        </section>
+        <section class="Proyecto" id="Proyecto">
+            <h1 class="titulo">Mis <span>Proyectos</span></h1>
+            <div class="box-container">
+                <figure class="box">
+                    <img src="./img/asclepio.jpeg" alt="Asclepio">
+                    <div class="content">
+                        <h3>Proyecto Asclepio</h3>
+                        <p>Este proyecto trata de un sistema contable para una farmacia, el sistema tiene el nombre de "Asclepio", se realizo en la materia de contabilidad.</p>
+                    </div>
+                </figure>
+                <figure class="box">
+                    <img src="./img/grofoss3.png" alt="Frutilandia">
+                    <div class="content">
+                        <h3>Proyecto de Grafo "PRIM"</h3>
+                        <p>Este proyecto esta basado sobre el algoritmo de PRIM que busca la ruta mas optima, para el ahorro de recursos en una intalacion de cables para la zona Pompeya de la ciudad de Trinidad.</p>
+                    </div>
+                </figure>
+                <figure class="box">
+                    <img src="./img/blog.png" alt="grafo">
+                    <div class="content">
+                        <h3>Proyecto Blog de GRAFOS teoria</h3>
+                        <p>Proyecto de inteccion y extension realizado en la materia de estructura de datos II, trata de enseñar a todas las personas, que es,donde y como aplicar la teoria de grafos, explicando a travez de un blog creado por mi persona. </p>
+                    </div>
+                </figure>
+            </div>
+        </section>
+        <section class="contactame" id="contactame">
+            <h1 class="titulo">!Mantengamos en <span>contacto!</span></h1>
+            <div class="row">
+                <figure class="image">
+                    <img src="./img/gmail.png" alt="gmail">
+                </figure>
+                <form action="">
+                    <div class="inputBox">
+                        <input type="text" placeholder="nombre">
+                        <input type="email" placeholder="email">
+                    </div>
+                    <textarea placeholder="mensaje" name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="enviar" class="btn">
+                </form>
+            </div>
+        </section>
+        <section>
+            
+        </section>
+    </main>
+</body>
+<!-- link del js personalizado -->
+<script src="./js/script.js"></script>
+    
+</html>

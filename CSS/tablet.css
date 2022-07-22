@@ -1,0 +1,19 @@
+
+#menu-bar{
+    display: none; 
+}
+header .menu-navegar{
+    position: relative;
+    border: none;
+    background-color: var(--ColorSecundario);
+    color: white;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+}
+header .menu-navegar a{
+    display: inline;
+    border: none;
+    color: white;
+    background-color: var(--ColorSecundario);
+    margin: 0 0 0 2rem;
+    padding: 0;
+}
